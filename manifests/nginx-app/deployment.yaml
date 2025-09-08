@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx-app
-        image: 636685853539.dkr.ecr.ap-northeast-2.amazonaws.com/vec-prd-nginx-app:v2.0
+        image: 636685853539.dkr.ecr.ap-northeast-2.amazonaws.com/vec-prd-nginx-app:v1.0
         ports:
         - containerPort: 80
         resources:
